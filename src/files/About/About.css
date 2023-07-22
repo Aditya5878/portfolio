@@ -1,0 +1,78 @@
+@import url('https://fonts.googleapis.com/css2?family=Exo+2&family=Poppins&display=swap');
+
+:root{
+  --primary-white: #ffffff;
+  --primary-orange: #bc5c09;
+  --primary-dark:rgba(255,255,255,0);
+}
+body
+{
+ 
+font-family: 'Exo 2', sans-serif;
+font-family: 'Poppins', sans-serif;
+background: -webkit-linear-gradient(left, #000000, #00c6ff);
+}
+
+.about-section {
+  padding: 2rem;
+  margin-top: 5%;
+  font-family: 'Exo 2', sans-serif;
+  
+}
+
+ 
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.about-content {
+  text-align: center;
+}
+
+.about-content h2 {
+  font-size: 2rem;
+  margin-bottom: 1rem;
+  color:var(--primary-white) !important;
+}
+
+.about-content p {
+    font-size: 1.2rem;
+    margin-bottom: 2rem;
+    color:var(--primary-white) !important;
+}
+
+.about-content img {
+    width: 100%;
+    max-width: 500px;
+    height: auto;
+    margin-top: 1rem;
+    border-radius: 80%  50% ; /* Adjust the values to create the desired elliptical shape */
+    box-shadow: 0 0 20px rgba(255, 255, 255, 0.5);
+  }
+  
+  
+
+@media (max-width: 768px) {
+  .about-content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: left;
+  }
+  .about-content p {
+    font-size: 0.9rem;
+  }
+
+  .about-content img {
+    margin-top: 0;
+    margin-left: auto; 
+    margin-right: auto;
+  }
+}
+@media (max-width: 280px) {
+  :root {
+    display: flex;
+    
+  }
+}

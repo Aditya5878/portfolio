@@ -1,0 +1,87 @@
+.projects-section {
+  /* background-color: #000; */
+  /* padding: 2rem; */
+  color: #fff;
+  font-family: "Exo 2", sans-serif;
+  margin-top: 5%;
+}
+
+/* body {
+  /* background: -webkit-linear-gradient(right, #000000, #00c6ff); */
+
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.projects-container {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  gap: 2rem;
+}
+
+.project {
+  border: 1px solid #ccc;
+  padding: 1.5rem;
+  border-radius: 0.5rem;
+  background-color: #111;
+}
+
+.project h3 {
+  font-size: 1.5rem;
+  margin-bottom: 1rem;
+}
+
+.project p {
+  margin-bottom: 1rem;
+}
+
+.buttons-container {
+  display: flex;
+  justify-content: space-between;
+}
+
+.btn-github,
+.btn-website {
+  display: flex;
+  align-items: center;
+  background-color: #333;
+  color: #fff;
+  text-decoration: none;
+  padding: 0.5rem 1rem;
+  border-radius: 0.5rem;
+  font-weight: bold;
+  transition: background-color 0.3s ease;
+}
+
+.btn-github:hover,
+.btn-website:hover {
+  background-color: #444;
+}
+
+.btn-github svg,
+.btn-website svg {
+  margin-right: 0.5rem;
+}
+
+@media (max-width: 768px) {
+  .btn-github,
+  .btn-website {
+    font-size: small;
+  }
+  .projects-container {
+    grid-template-columns: 1fr;
+  }
+}
+
+@media (max-width: 340px) {
+  .btn-github,
+  .btn-website {
+    font-size: x-small;
+    padding: 0.1rem 0.5rem;
+  }
+
+  :root {
+    display: flex;
+  }
+}

@@ -1,0 +1,30 @@
+footer{
+    background-color: #333;
+    color: #fff;
+    padding: 50px 0;
+    text-align: center;
+    font-size: 14px;
+    font-weight: 300;
+    line-height: 1.5;
+    letter-spacing: 0.5px;
+    text-transform: uppercase;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.social-icons{
+    margin-top: 20px;
+    padding: 15px 0;
+    
+}
+.social-icons a{
+    padding: 0 15px;
+    color: #fff;
+    font-size: 20px;
+    cursor: pointer;
+}
+.social-icons a:hover{
+    color: blue;
+}

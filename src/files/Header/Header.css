@@ -1,0 +1,140 @@
+.header-wrapper {
+  position: relative;
+  height: 90vh;
+  overflow: hidden;
+  background: #000000;
+}
+
+.background-overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  width: 100%;
+  height: 100%;
+  background-image: url('bg.jpg');
+  background-color: #202123;
+  background-size: cover;
+  background-position: center;
+  filter: blur(0.225rem);
+  /* opacity: 0.; Adjust the opacity as desired */
+}
+
+.main-info{
+  display: flex;
+  position: absolute;
+  top:0;
+  left:0;
+  right:0;
+  bottom:0;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+.main-info h1{
+
+  color:var(--primary-white) !important;
+  /* text-transform: uppercase; */
+}
+.main-info h6{
+
+  color:var(--primary-white) !important;
+  /* text-transform: uppercase; */
+}
+@media(max-width:768px){
+  .main-info h1{
+    font-size: 1.9rem !important;
+  }
+  .main-info h6{
+    font-size: 0.8rem !important; 
+  }
+  .typed-text{
+    font-size: 1.6rem !important; 
+  }
+  .btn-main-offer{
+    font-size: 0.8rem !important; 
+  }
+  .btn-my-work{
+    font-size:0.8rem !important; 
+  }
+  .btn-my-resume{
+    font-size:0.8rem !important; 
+  }
+  .navbar-brand{
+    width: 7rem !important; 
+    /* height: 4rem; */
+  }
+}
+.typed-text{
+  color:rgb(255, 0, 0);
+  font-size: 2rem;
+  
+}
+.btn-main-offer {
+  display: inline-block;
+  padding: 0.625rem 1.25rem;
+  background-color: #f44336;
+  color: #fff;
+  text-decoration: none;
+  text-transform: uppercase;
+  border-radius: 0.25rem;
+  font-size: 1rem;
+  font-weight: bold;
+}
+.btn-main-offer:hover {
+  background-color: #e53935;
+}
+.btn-my-work {
+  display: inline-block;
+  text-transform: uppercase;
+  padding: 0.625rem 1.25rem;
+  background-color: #2196f3;
+  color: #fff;
+  text-decoration: none;
+  border-radius:  0.25rem;
+  font-size: 1rem;
+  font-weight: bold;
+  margin-left: 0.625rem;
+}
+
+.btn-my-work:hover {
+  background-color: #1976d2;
+}
+.btn-my-resume {
+  display: inline-block;
+  padding: 0.625rem 1.25rem;
+  margin-left: 10px;
+  background-color: green;
+  color: #fff;
+  text-decoration: none;
+  text-transform: uppercase;
+  border-radius: 0.25rem;
+  font-size: 1rem;
+  font-weight: bold;
+}
+
+.btn-my-resume:hover {
+  background-color: rgb(8, 110, 8);
+}
+
+@media (max-width: 450px) {
+   span{
+    display: flex;
+    flex-direction: column;
+    gap:10px
+   }
+  .btn-main-offer {
+    font-size: 0.8rem;
+     margin-left: 10px;
+  }
+  .btn-my-work {
+    font-size: 0.8rem;
+  }
+  .btn-my-resume {
+    font-size: 0.8rem;
+  }
+
+}
+  
